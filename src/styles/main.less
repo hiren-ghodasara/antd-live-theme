@@ -1,0 +1,27 @@
+@import "~antd/dist/antd.less";
+@import "vars.less";
+
+body {
+  color: #ccc;
+  font-family: @font-family;
+}
+
+.example {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ccc;
+}
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background: @coherent-btn-hover;
+}
+
+.ant-btn-primary:active {
+  background: @coherent-btn-active;
+}
+
+.ant-table-tbody > tr.ant-table-row:hover > td,
+.ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: @coherent-table-row-hover-bg;
+}
