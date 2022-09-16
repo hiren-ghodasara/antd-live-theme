@@ -1,6 +1,7 @@
 {
   "name": "antd-live-theme",
   "version": "0.1.0",
+  "homepage": "https://hiren-ghodasara.github.io/antd-live-theme",
   "private": true,
   "scripts": {
     "start": "yarn color && craco start",
@@ -8,6 +9,8 @@
     "color": "node color.js",
     "test": "craco test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "serve": "serve -s build"
   },
   "dependencies": {
@@ -34,6 +37,7 @@
     "@types/react-json-editor-ajrm": "^2.5.3",
     "antd-theme-generator": "^1.2.11",
     "craco-less": "^2.0.0",
+    "gh-pages": "^4.0.0",
     "serve": "^14.0.1"
   },
   "eslintConfig": {
