@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/antd-live-theme/static/css/main.d5e783e6.css",
+    "main.js": "/antd-live-theme/static/js/main.aebccc34.js",
+    "static/js/787.8b602120.chunk.js": "/antd-live-theme/static/js/787.8b602120.chunk.js",
+    "index.html": "/antd-live-theme/index.html",
+    "main.d5e783e6.css.map": "/antd-live-theme/static/css/main.d5e783e6.css.map",
+    "main.aebccc34.js.map": "/antd-live-theme/static/js/main.aebccc34.js.map",
+    "787.8b602120.chunk.js.map": "/antd-live-theme/static/js/787.8b602120.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e783e6.css",
+    "static/js/main.aebccc34.js"
+  ]
+}
